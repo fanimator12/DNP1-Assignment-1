@@ -7,14 +7,6 @@
 <p>
     Filter by User Id: <input type="number" style="width:50px"/>
 </p>
-<p>
-    Filter by completed status:
-    <select class="form-control selectpicker" style="width:100px">
-        <option>Both</option>
-        <option>False</option>
-        <option>True</option>
-    </select>
-</p>
 @if (familiesToShow == null) {
     <p>
         <em>Loading...</em>
@@ -28,17 +20,21 @@
         <thead>
         <tr>
             <th>User ID</th>
-            <th>Family ID</th>
-            <th>Title</th>
+            <th>Address</th>
+            <th>Adults</th>
+            <th>Children</th>
+            <th>Pets</th>
             <th>Remove</th>
         </tr>
         </thead>
         <tbody>
         @foreach (var item in familiesToShow) {
             <tr>
-                <td>@item.UserId</td>
-                <td>@item.FamilyId</td>
-                <td>@item.Title</td>
+                <td>@item.Id</td>
+                <td>@item.StreetName <br> @item.HouseNumber</td>
+                <td>@item.Adults</td>
+                <td>@item.Children</td>
+                <td>@item.Pets</td>
             </tr>
         }
         </tbody>
@@ -50,7 +46,6 @@
     private IList<Family> allFamilies;
 
     private int? filterById;
-    private bool? filterByIsCompleted;
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs) {
         filterById = null;
@@ -60,18 +55,9 @@
         ExecuteFilter();
     }
 
-    private void FilterByCompletedStatus(ChangeEventArgs args) {
-        filterByIsCompleted = null;
-        try {
-            filterByIsCompleted = bool.Parse(args.Value.ToString());
-        } catch (Exception e) { }
-        ExecuteFilter();
-    }
-
     private void ExecuteFilter() {
         familiesToShow = allFamilies.Where(t => 
-            (filterById != null && t.UserId == filterById || filterById == null) //&&
-           // (filterByIsCompleted != null && t.IsCompleted == filterByIsCompleted || filterByIsCompleted == null)
+            (filterById != null && t.Id == filterById || filterById == null)
         ).ToList();
     }
 
@@ -81,13 +67,12 @@
     }
 
     private void RemoveFamily(int familyId) {
-        Family familyToRemove = familiesToShow.First(t => t.FamilyId == familyId);
+        Family familyToRemove = familiesToShow.First(t => t.Id == familyId);
         FamilyService.RemoveFamily(familyId);
         familiesToShow.Remove(familyToRemove);
     }
 
     private void CompletedChange(ChangeEventArgs evt, Family family) {
-        //family.IsCompleted = (bool) evt.Value;
         FamilyService.Update(family);
     }
 

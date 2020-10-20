@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cea95cf4-e0d3-45e8-9970-5f48a095e5be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assignment1/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Data/FamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Data/IFamiliesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Data/IFamiliesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Models/Family.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/AddFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/AddFamily.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/FamilyList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/FamilyList.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorComponent.input.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.TagHelpers.output.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/FamilyList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/FamilyList.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Assignment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamilyList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamilyList.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/obj/Debug/netcoreapp3.1/project.razor.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j9a89uGszYKLpgeZXMfEwvb5QF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cea95cf4-e0d3-45e8-9970-5f48a095e5be" name="Default Changelist" comment="" />
+      <created>1603218644656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603218644656</updated>
+      <workItem from="1603218708217" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

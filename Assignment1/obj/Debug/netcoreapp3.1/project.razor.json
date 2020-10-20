@@ -45,35 +45,35 @@
         }
       },
       {
-        "HashCode": -156274094,
+        "HashCode": 435374907,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Pages.AddFamily",
+        "Name": "Assignment1.Pages.FamilyList",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AddFamily"
+            "TagName": "FamilyList"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Pages.AddFamily"
+          "Common.TypeName": "Assignment1.Pages.FamilyList"
         }
       },
       {
-        "HashCode": -1898818603,
+        "HashCode": 1474507050,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Pages.AddFamily",
+        "Name": "Assignment1.Pages.FamilyList",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Assignment1.Pages.AddFamily"
+            "TagName": "Assignment1.Pages.FamilyList"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Pages.AddFamily",
+          "Common.TypeName": "Assignment1.Pages.FamilyList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,35 +111,68 @@
         }
       },
       {
-        "HashCode": 435374907,
+        "HashCode": 1130096263,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Pages.FamilyList",
+        "Name": "Assignment1.Pages.SecurityLevel",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FamilyList"
+            "TagName": "SecurityLevel"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Pages.FamilyList"
+          "Common.TypeName": "Assignment1.Pages.SecurityLevel"
         }
       },
       {
-        "HashCode": 1474507050,
+        "HashCode": -1726609608,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Pages.FamilyList",
+        "Name": "Assignment1.Pages.SecurityLevel",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Assignment1.Pages.FamilyList"
+            "TagName": "Assignment1.Pages.SecurityLevel"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Pages.FamilyList",
+          "Common.TypeName": "Assignment1.Pages.SecurityLevel",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -156274094,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Pages.AddFamily",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddFamily"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Pages.AddFamily"
+        }
+      },
+      {
+        "HashCode": -1898818603,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Pages.AddFamily",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.Pages.AddFamily"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Pages.AddFamily",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -240,6 +273,39 @@
         }
       },
       {
+        "HashCode": -1334820258,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 561923614,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 864690291,
         "Kind": "Components.Component",
         "Name": "Assignment1.Shared.SurveyPrompt",
@@ -293,35 +359,35 @@
         }
       },
       {
-        "HashCode": -1334820258,
+        "HashCode": 1654442629,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Shared.NavMenu",
+        "Name": "LoginComponent.Login",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Shared.NavMenu"
+          "Common.TypeName": "LoginComponent.Login"
         }
       },
       {
-        "HashCode": 561923614,
+        "HashCode": 1326522959,
         "Kind": "Components.Component",
-        "Name": "Assignment1.Shared.NavMenu",
+        "Name": "LoginComponent.Login",
         "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Assignment1.Shared.NavMenu"
+            "TagName": "LoginComponent.Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.Shared.NavMenu",
+          "Common.TypeName": "LoginComponent.Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14751,8 +14817,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\SecurityLevel.razor",
+      "TargetPath": "Pages\\SecurityLevel.razor",
       "FileKind": "component"
     }
   ],

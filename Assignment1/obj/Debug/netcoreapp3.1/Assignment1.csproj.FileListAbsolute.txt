@@ -49,3 +49,9 @@ C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug
 C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
 C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
 C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\bin\Debug\netcoreapp3.1\families.json
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\bin\Debug\netcoreapp3.1\adults.json
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\SecurityLevel.razor.g.cs
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Pages\SecurityLevel.razor.g.cs
+C:\Users\torok\OneDrive\Documents\GitHub\DNP1-Assignment-1\Assignment1\bin\Debug\netcoreapp3.1\users.json

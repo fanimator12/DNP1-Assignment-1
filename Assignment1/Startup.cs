@@ -9,7 +9,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Security.Claims;
+using Assignment1.Authentication;
 using Assignment1.Data;
+using Assignment1.Data.Impl;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace Assignment1 {
 public class Startup {
@@ -24,7 +28,25 @@ public class Startup {
     public void ConfigureServices(IServiceCollection services) {
         services.AddRazorPages();
         services.AddServerSideBlazor();
+        services.AddSingleton<WeatherForecastService>();
         services.AddSingleton<IFamiliesService, FamilyService>();
+        services.AddScoped<IUserService, InMemoryUserService>();
+        services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+
+        services.AddAuthorization(options => {
+            options.AddPolicy("MustBeLoggedIn",  a => 
+                a.RequireAuthenticatedUser().RequireClaim("LoggedIn", "true"));
+            
+            options.AddPolicy("SecurityLevel4",  a => 
+                a.RequireAuthenticatedUser().RequireClaim("Level", "4","5"));
+            
+            options.AddPolicy("SecurityLevel2", policy =>
+                policy.RequireAuthenticatedUser().RequireAssertion(context => {
+                    Claim levelClaim = context.User.FindFirst(claim => claim.Type.Equals("Level"));
+                    if (levelClaim == null) return false;
+                    return int.Parse(levelClaim.Value) >= 2;
+                }));
+        });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
