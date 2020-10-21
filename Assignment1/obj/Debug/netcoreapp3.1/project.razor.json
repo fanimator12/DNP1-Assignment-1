@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -429847309,
-        "Kind": "Components.Component",
-        "Name": "Assignment1.App",
-        "AssemblyName": "Assignment1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.App"
-        }
-      },
-      {
-        "HashCode": -64009004,
-        "Kind": "Components.Component",
-        "Name": "Assignment1.App",
-        "AssemblyName": "Assignment1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Assignment1.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Assignment1.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 435374907,
         "Kind": "Components.Component",
         "Name": "Assignment1.Pages.FamilyList",
@@ -355,6 +322,386 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Assignment1.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -429847309,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.App",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.App"
+        }
+      },
+      {
+        "HashCode": -64009004,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.App",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1649949648,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.App",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.App"
+        }
+      },
+      {
+        "HashCode": 189655372,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.App",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 282319179,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.Counter",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1509029829,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.Counter",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1866959087,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.FetchData",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1175205873,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.FetchData",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 82026337,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.Index",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 583690766,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Pages.Index",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1854422030,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.LoginDisplay",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -2141889936,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.LoginDisplay",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 901724870,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.MainLayout",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": 1356534499,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.MainLayout",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -907039014,
+        "Kind": "Components.ChildContent",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.MainLayout.Body",
+        "AssemblyName": "Assignment1",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 809638125,
+        "Kind": "Components.ChildContent",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.MainLayout.Body",
+        "AssemblyName": "Assignment1",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Assignment1.WebApplication.WebApplication.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1704468100,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 904960625,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1884591504,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.SurveyPrompt",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1343101077,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.WebApplication.WebApplication.Shared.SurveyPrompt",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.WebApplication.WebApplication.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.WebApplication.WebApplication.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14772,8 +15119,23 @@
   "RootNamespace": "Assignment1",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Pages\\_Host.cshtml",
+      "TargetPath": "WebApplication\\WebApplication\\Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Areas\\Identity\\Pages\\Account\\LogOut.cshtml",
+      "TargetPath": "WebApplication\\WebApplication\\Areas\\Identity\\Pages\\Account\\LogOut.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\AddFamily.razor",
       "TargetPath": "Pages\\AddFamily.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\App.razor",
+      "TargetPath": "WebApplication\\WebApplication\\App.razor",
       "FileKind": "component"
     },
     {
@@ -14782,8 +15144,48 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\_Imports.razor",
+      "TargetPath": "WebApplication\\WebApplication\\_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "WebApplication\\WebApplication\\Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Shared\\NavMenu.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Pages\\Index.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Shared\\LoginDisplay.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Shared\\LoginDisplay.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14797,6 +15199,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Pages\\FetchData.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
@@ -14804,6 +15216,11 @@
     {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14827,8 +15244,33 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Shared\\MainLayout.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Pages\\SecurityLevel.razor",
       "TargetPath": "Pages\\SecurityLevel.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Pages\\Error.cshtml",
+      "TargetPath": "WebApplication\\WebApplication\\Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1\\Assignment1\\Views\\Home\\About.cshtml",
+      "TargetPath": "Assignment1\\Assignment1\\Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\WebApplication\\WebApplication\\Pages\\Counter.razor",
+      "TargetPath": "WebApplication\\WebApplication\\Pages\\Counter.razor",
       "FileKind": "component"
     }
   ],
