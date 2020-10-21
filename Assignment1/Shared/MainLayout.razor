@@ -1,5 +1,6 @@
-﻿@inherits LayoutComponentBase
-@using LoginComponent
+﻿@using LoginComponent
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
 
 <div class="sidebar">
     <NavMenu/>
@@ -15,3 +16,19 @@
         @Body
     </div>
 </div>
+
+@code{ 
+
+    [CascadingParameter] protected Task<AuthenticationState> AuthStat { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        var user = (await AuthStat).User;
+        if(!user.Identity.IsAuthenticated)
+        {
+            NavigationManager.NavigateTo($"/Login");
+    // NavigationManager.NavigateTo($"/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
+        }
+    }
+}

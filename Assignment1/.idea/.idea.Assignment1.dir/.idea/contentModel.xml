@@ -68,7 +68,6 @@
         <e p="SurveyPrompt.razor" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
-      <e p="todos.json" t="Include" />
       <e p="users.json" t="Include" />
       <e p="wwwroot" t="Include">
         <e p="css" t="Include">

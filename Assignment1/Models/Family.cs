@@ -22,7 +22,7 @@ namespace Assignment1.Models
 
         [Required] public List<Adult> Adults { get; set; }
 
-        [Required] public List<Child> Children { get; set; }
+        public List<Child> Children { get; set; }
 
         public List<Pet> Pets { get; set; }
     }

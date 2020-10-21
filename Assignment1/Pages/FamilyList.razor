@@ -39,7 +39,7 @@ else
                 <td>
                     @item.StreetName <br> @item.HouseNumber
                 </td>
-                <td>@item.Adults</td>
+                <td>@item.Adults.ToList()</td>
                 <td>
                     <button @onclick="@(() => RemoveFamily(item.Id))">
                         <i class="oi oi-trash" style="color:red"/>

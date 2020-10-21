@@ -26,14 +26,13 @@ namespace Assignment1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            //services.AddSingleton<ITodosService, TodoService>();
             services.AddSingleton<IFamiliesService, FamilyService>();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("MustBeLoggedIn", a =>
+                options.AddPolicy("LoggedIn", a =>
                     a.RequireAuthenticatedUser().RequireClaim("LoggedIn", "true"));
             });
         }
