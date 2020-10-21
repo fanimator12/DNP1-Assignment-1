@@ -39,7 +39,19 @@ else
                 <td>
                     @item.StreetName <br> @item.HouseNumber
                 </td>
-                <td>@item.Adults.ToList()</td>
+                @foreach (var adultItem in allAdults)
+                {
+                    <td>@adultItem.JobTitle</td>
+                    <td>@adultItem.Id</td>
+                    <td>@adultItem.FirstName</td>
+                    <td>@adultItem.LastName</td>
+                    <td>@adultItem.HairColor</td>
+                    <td>@adultItem.EyeColor</td>
+                    <td>@adultItem.Age</td>
+                    <td>@adultItem.Weight</td>
+                    <td>@adultItem.Height</td>
+                    <td>@adultItem.Sex</td>
+                }
                 <td>
                     <button @onclick="@(() => RemoveFamily(item.Id))">
                         <i class="oi oi-trash" style="color:red"/>
@@ -54,6 +66,7 @@ else
 @code {
     private IList<Family> familiesToShow;
     private IList<Family> allFamilies;
+    private IList<Adult> allAdults;
 
     private int? filterById;
 

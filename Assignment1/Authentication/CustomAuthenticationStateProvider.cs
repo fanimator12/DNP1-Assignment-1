@@ -85,7 +85,6 @@ namespace Assignment1.Authentication
             claims.Add(new Claim("City", user.City));
             claims.Add(new Claim("Domain", user.Domain));
             claims.Add(new Claim("BirthYear", user.BirthYear.ToString()));
-            claims.Add(new Claim("Level", user.SecurityLevel.ToString()));
             claims.Add(new Claim("Id", user.Id.ToString()));
             claims.Add(new Claim("LoggedIn", user.LoggedIn.ToString()));
 

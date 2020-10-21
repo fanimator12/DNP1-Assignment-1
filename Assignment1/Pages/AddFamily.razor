@@ -6,11 +6,12 @@
 @inject IFamiliesService FamilyService
 @inject FileContext FileContext
 @inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <h3>Add Family</h3>
 <p>This page can only be viewed, if you are logged in.</p>
 
-<EditForm Model="@newFamilyItem" OnValidSubmit="@AddNewFamily">
+<EditForm Model="@newAdult" OnValidSubmit="@AddNewAdult">
     <DataAnnotationsValidator/>
     <ValidationSummary/>
     <div class="col-12 row">
@@ -185,7 +186,7 @@
             </span>
         </div>-->
     <p class="actions">
-        <button class="btn btn-outline-dark" @onclick="AddNewAdult" type="submit">Create</button>
+        <button class="btn btn-outline-dark" @onclick="AddNewFamily" type="submit">Create</button>
     </p>
 </EditForm>
 

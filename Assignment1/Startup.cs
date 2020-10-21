@@ -32,8 +32,9 @@ namespace Assignment1
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("LoggedIn", a =>
-                    a.RequireAuthenticatedUser().RequireClaim("LoggedIn", "true"));
+                /*options.AddPolicy("LoggedIn", a =>
+                    a.RequireAuthenticatedUser().RequireClaim("LoggedIn", "true"));*/
+                options.AddPolicy("LoggedIn", policy => policy.RequireClaim("LoggedIn", "true"));
             });
         }
 

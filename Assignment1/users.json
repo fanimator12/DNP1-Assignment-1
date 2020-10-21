@@ -5,9 +5,9 @@
         "Password" : "123456",
         "Role" : "Teacher",
         "BirthYear" : 1986,
-        "SecurityLevel" : 5,
         "UserName" : "Troels",
-        "Id" : 128
+        "Id" : 128,
+        "LoggedIn" : true
     },
     {
         "City" : "Aarhus",
@@ -15,9 +15,9 @@
         "Password" : "123456",
         "Role" : "Student",
         "BirthYear" : 1998,
-        "SecurityLevel" : 3,
         "UserName" : "Jakob",
-        "Id" : 1
+        "Id" : 1,
+        "LoggedIn" : true
     },
     {
         "City" : "Vejle",
@@ -25,8 +25,8 @@
         "Password" : "123456",
         "Role" : "Guest",
         "BirthYear" : 1973,
-        "SecurityLevel" : 1,
         "UserName" : "Kasper",
-        "Id" : 28
+        "Id" : 28,
+        "LoggedIn" : true
     }
 ]
