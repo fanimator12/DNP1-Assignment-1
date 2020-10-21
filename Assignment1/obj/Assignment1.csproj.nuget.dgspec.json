@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj": {}
+    "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj": {
+    "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "C:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj",
+        "projectPath": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj",
         "packagesPath": "C:\\Users\\torok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNP1-Assignment-1\\Assignment1\\obj\\",
+        "outputPath": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\torok\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,6 +1,6 @@
 @page "/login"
-@namespace LoginComponent
 @using Assignment1.Authentication
+@namespace LoginComponent
 
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject NavigationManager NavigationManager
@@ -15,7 +15,7 @@
             <label>Password</label>
             <input type="password" placeholder="password" @bind-value="password"/>
         </div>
-        <div style="color:red">@errorMessage</div>
+        <div style="color:#ff0000">@errorMessage</div>
 
         <a href="" @onclick="PerformLogin">
             Login
@@ -33,30 +33,41 @@
     private string password;
     private string errorMessage;
 
-    public async Task PerformLogin() {
+    public async Task PerformLogin()
+    {
         errorMessage = "You're not logged in.";
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();;
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        ;
         var user = authState.User;
-        try {
+        try
+        {
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             errorMessage = e.Message;
         }
     }
 
-    public async Task PerformLogout() {
+    public async Task PerformLogout()
+    {
         errorMessage = "You're still logged in.";
         username = "";
         password = "";
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();;
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        ;
         var user = authState.User;
-        try {
+        try
+        {
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
             NavigationManager.NavigateTo("/");
-        } catch (Exception e) { 
-             errorMessage = e.Message;
+        }
+        catch (Exception e)
+        {
+            errorMessage = e.Message;
         }
     }
+
 }

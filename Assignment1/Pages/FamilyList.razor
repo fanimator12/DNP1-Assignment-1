@@ -7,15 +7,20 @@
 <p>
     Filter by User Id: <input type="number" style="width:50px"/>
 </p>
-@if (familiesToShow == null) {
+@if (familiesToShow == null)
+{
     <p>
         <em>Loading...</em>
     </p>
-} else if (!familiesToShow.Any()) {
+}
+else if (!familiesToShow.Any())
+{
     <p>
         <em>No Family items exist. Please add some.</em>
     </p>
-} else {
+}
+else
+{
     <table class="table">
         <thead>
         <tr>
@@ -28,13 +33,21 @@
         </tr>
         </thead>
         <tbody>
-        @foreach (var item in familiesToShow) {
+        @foreach (var item in familiesToShow)
+        {
             <tr>
                 <td>@item.Id</td>
-                <td>@item.StreetName <br> @item.HouseNumber</td>
+                <td>
+                    @item.StreetName <br> @item.HouseNumber
+                </td>
                 <td>@item.Adults</td>
                 <td>@item.Children</td>
                 <td>@item.Pets</td>
+                <td>
+                    <button @onclick="@() => RemoveFamily(item.Id)">
+                        <i class="oi oi-trash" style="color:red"/>
+                    </button>
+                </td>
             </tr>
         }
         </tbody>
@@ -47,32 +60,41 @@
 
     private int? filterById;
 
-    private void FilterByUserId(ChangeEventArgs changeEventArgs) {
+    private void FilterByUserId(ChangeEventArgs changeEventArgs)
+    {
         filterById = null;
-        try {
+        try
+        {
             filterById = int.Parse(changeEventArgs.Value.ToString());
-        } catch (Exception e) { }
+        }
+        catch (Exception e)
+        {
+        }
         ExecuteFilter();
     }
 
-    private void ExecuteFilter() {
-        familiesToShow = allFamilies.Where(t => 
-            (filterById != null && t.Id == filterById || filterById == null)
-        ).ToList();
+    private void ExecuteFilter()
+    {
+        familiesToShow = allFamilies.Where(t =>
+            filterById != null && t.Id == filterById || filterById == null
+            ).ToList();
     }
 
-    protected override async Task OnInitializedAsync() {
+    protected override async Task OnInitializedAsync()
+    {
         allFamilies = FamilyService.GetFamilies();
         familiesToShow = allFamilies;
     }
 
-    private void RemoveFamily(int familyId) {
-        Family familyToRemove = familiesToShow.First(t => t.Id == familyId);
+    private void RemoveFamily(int familyId)
+    {
+        var familyToRemove = familiesToShow.First(t => t.Id == familyId);
         FamilyService.RemoveFamily(familyId);
         familiesToShow.Remove(familyToRemove);
     }
 
-    private void CompletedChange(ChangeEventArgs evt, Family family) {
+    private void CompletedChange(ChangeEventArgs evt, Family family)
+    {
         FamilyService.Update(family);
     }
 
