@@ -5,68 +5,67 @@ using System.Linq;
 using System.Text.Json;
 using Assignment1.Models;
 
-namespace Assignment1.Data
+namespace Assignment1.Data.Persistence
 {
     public class FamilyService : IFamiliesService
     {
+        private readonly string familiesFile = "families.json";
         private readonly string adultsFile = "adults.json";
-        private readonly string familyFile = "families.json";
         private readonly string usersFile = "users.json";
 
         public FamilyService()
         {
-            families = File.Exists(familyFile) ? ReadData<Family>(familyFile) : new List<Family>();
-            adults = File.Exists(adultsFile) ? ReadData<Person>(adultsFile) : new List<Person>();
+            families = File.Exists(familiesFile) ? ReadData<Family>(familiesFile) : new List<Family>();
+            adults = File.Exists(adultsFile) ? ReadData<Adult>(adultsFile) : new List<Adult>();
             users = File.Exists(usersFile) ? ReadData<User>(usersFile) : new List<User>();
         }
-
         public IList<Family> families { get; }
-        public IList<Person> adults { get; }
+        public IList<Adult> adults { get; }
         public IList<User> users { get; }
 
+        public IList<Adult> GetAdults()
+        {
+            var amp = new List<Adult>(adults);
+            return amp;
+        }
+        
         public IList<Family> GetFamilies()
         {
             var tmp = new List<Family>(families);
             return tmp;
         }
 
-        public IList<Person> GetAdults()
+        public void AddAdult(Adult adult)
         {
-            var amp = new List<Person>(adults);
-            return amp;
-        }
-
-        public void AddFamily(Family family)
-        {
-            var max = families.Max(family => family.Id);
-            family.Id = ++max;
-            families.Add(family);
+            var max = adults.Max(adult => adult.Id);
+            adult.Id = ++max;
+            adults.Add(adult);
             SaveChanges();
         }
 
-        public void RemoveFamily(int familyId)
+        public void RemoveAdult(int adultId)
         {
-            var toRemove = families.First(t => t.Id == familyId);
-            families.Remove(toRemove);
+            var toRemove = adults.First(t => t.Id == adultId);
+            adults.Remove(toRemove);
             SaveChanges();
         }
 
-        public void Update(Family family)
+        public void Update(Adult adult)
         {
-            var toUpdate = families.First(t => t.Id == family.Id);
+            var toUpdate = adults.First(t => t.Id == adult.Id);
             SaveChanges();
         }
 
         public Person ValidatePerson(string firstName, string lastName, string sex, int id)
         {
             var validPerson = adults.FirstOrDefault(adult => adult.FirstName.Equals(firstName));
-            if (validPerson == null) throw new Exception("Adult with this first name not found");
+            if (validPerson == null) throw new Exception("Person with this first name not found");
 
-            if (!validPerson.LastName.Equals(lastName)) throw new Exception("Adult with this last name not found");
+            if (!validPerson.LastName.Equals(lastName)) throw new Exception("Person with this last name not found");
 
-            if (!validPerson.Sex.Equals(sex)) throw new Exception("Adult with this sex not found");
+            if (!validPerson.Sex.Equals(sex)) throw new Exception("Person with this sex not found");
 
-            if (!validPerson.Id.Equals(id)) throw new Exception("Adult with this ID not found");
+            if (!validPerson.Id.Equals(id)) throw new Exception("Person with this ID not found");
 
             return validPerson;
         }
@@ -87,7 +86,7 @@ namespace Assignment1.Data
 
         public void SaveChanges()
         {
-            // storing families
+           /* // storing families
             var jsonFamilies = JsonSerializer.Serialize(families, new JsonSerializerOptions
             {
                 WriteIndented = true
@@ -97,7 +96,7 @@ namespace Assignment1.Data
             {
                 outputFile.Write(jsonFamilies);
             }
-
+*/
             // storing persons
             var jsonAdults = JsonSerializer.Serialize(adults, new JsonSerializerOptions
             {

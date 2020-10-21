@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj": {}
+    "D:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
-    "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj": {
+    "D:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "D:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\Assignment1.csproj",
-        "packagesPath": "C:\\Users\\torok\\.nuget\\packages\\",
-        "outputPath": "I:\\VIA\\dnp1\\Assignment1\\Assignment1\\obj\\",
+        "projectPath": "D:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\dnp1\\DNP1-Assignment-1\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\torok\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,8 +5,9 @@
 
 <h1 xmlns="http://www.w3.org/1999/html">Family list</h1>
 <p>
-    Filter by User Id: <input type="number" style="width:50px"/>
+    Filter by User Id: <input type="number" @oninput="@((arg) => FilterByUserId(arg))" style="width:50px"/>
 </p>
+
 @if (familiesToShow == null)
 {
     <p>
@@ -27,8 +28,6 @@ else
             <th>User ID</th>
             <th>Address</th>
             <th>Adults</th>
-            <th>Children</th>
-            <th>Pets</th>
             <th>Remove</th>
         </tr>
         </thead>
@@ -41,10 +40,8 @@ else
                     @item.StreetName <br> @item.HouseNumber
                 </td>
                 <td>@item.Adults</td>
-                <td>@item.Children</td>
-                <td>@item.Pets</td>
                 <td>
-                    <button @onclick="@() => RemoveFamily(item.Id)">
+                    <button @onclick="@(() => RemoveFamily(item.Id))">
                         <i class="oi oi-trash" style="color:red"/>
                     </button>
                 </td>
@@ -62,6 +59,7 @@ else
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs)
     {
+        string errorMessage = "";
         filterById = null;
         try
         {
@@ -69,6 +67,7 @@ else
         }
         catch (Exception e)
         {
+            errorMessage = e.Message;
         }
         ExecuteFilter();
     }
@@ -86,16 +85,11 @@ else
         familiesToShow = allFamilies;
     }
 
-    private void RemoveFamily(int familyId)
+    private void RemoveFamily(int adultId)
     {
-        var familyToRemove = familiesToShow.First(t => t.Id == familyId);
-        FamilyService.RemoveFamily(familyId);
+        var familyToRemove = familiesToShow.First(t => t.Id == adultId);
+        FamilyService.RemoveAdult(adultId);
         familiesToShow.Remove(familyToRemove);
-    }
-
-    private void CompletedChange(ChangeEventArgs evt, Family family)
-    {
-        FamilyService.Update(family);
     }
 
 }

@@ -7,7 +7,7 @@ namespace Assignment1.Models
     {
         public Family()
         {
-            Adults = new List<Person>();
+            Adults = new List<Adult>();
             Children = new List<Child>();
             Pets = new List<Pet>();
         }
@@ -20,7 +20,7 @@ namespace Assignment1.Models
 
         [Required] public int HouseNumber { get; set; }
 
-        [Required] public List<Person> Adults { get; set; }
+        [Required] public List<Adult> Adults { get; set; }
 
         [Required] public List<Child> Children { get; set; }
 

@@ -24,7 +24,7 @@
         <span class="col-6">
             <div class="form-group">
                 House Number: <br/>
-                <InputText @bind-Value="newFamilyItem.HouseNumber"/>
+                <InputNumber @bind-Value="newFamilyItem.HouseNumber"/>
             </div>
         </span>
     </div>
@@ -114,7 +114,7 @@
         </span>
     </div>
     
-    <div id="addChildForm">
+      <!--<div id="addChildForm">
             <h3 id="AddChildren" xmlns="http://www.w3.org/1999/html">Add Children</h3>
         </div>
     
@@ -122,13 +122,13 @@
             <span class="col-6">
                 <div class="form-group">
                     ID: <br/>
-                    <InputText @bind-Value="newFamilyItem.Children"/>
+                    <InputText @bind-Value="newAdult"/>
                 </div>
             </span>
             <span class="col-6">
                 <div class="form-group">
                     First Name: <br/>
-                    <InputText @bind-Value="newFamilyItem.Children."/>
+                    <InputText @bind-Value="newAdult"/>
                 </div>
             </span>
         </div>
@@ -136,13 +136,13 @@
             <span class="col-6">
                 <div class="form-group">
                     Last Name: <br/>
-                    <InputText @bind-Value="newFamilyItem.LastName"/>
+                    <InputText @bind-Value="newAdult.LastName"/>
                 </div>
             </span>
             <span class="col-6">
                 <div class="form-group">
                     Hair Color: <br/>
-                    <InputText @bind-Value="newFamilyItem.HairColor"/>
+                    <InputText @bind-Value="newAdult.HairColor"/>
                 </div>
             </span>
         </div>
@@ -150,13 +150,13 @@
             <span class="col-6">
                 <div class="form-group">
                     Eye Color: <br/>
-                    <InputText @bind-Value="newFamilyItem.EyeColor"/>
+                    <InputText @bind-Value="newAdult.EyeColor"/>
                 </div>
             </span>
             <span class="col-6">
                 <div class="form-group">
                     Age: <br/>
-                    <InputNumber @bind-Value="newFamilyItem.Age"/>
+                    <InputNumber @bind-Value="newAdult.Age"/>
                 </div>
             </span>
         </div>
@@ -164,13 +164,13 @@
             <span class="col-6">
                 <div class="form-group">
                     Weight: <br/>
-                    <InputNumber @bind-Value="newFamilyItem.Weight"/>
+                    <InputNumber @bind-Value="newAdult.Weight"/>
                 </div>
             </span>
             <span class="col-6">
                 <div class="form-group">
                     Height: <br/>
-                    <InputNumber @bind-Value="newFamilyItem.Height"/>
+                    <InputNumber @bind-Value="newAdult.Height"/>
                 </div>
             </span>
         </div>
@@ -178,52 +178,23 @@
             <span class="col-6">
                 <div class="form-group">
                     Sex: <br/>
-                    <InputText @bind-Value="newFamilyItem.Sex"/>
+                    <InputText @bind-Value="newAdult.Sex"/>
                 </div>
             </span>
             <span class="col-6">
                 <div>@errorMessage</div>
             </span>
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
-                <p class="actions">
-                    <button class="btn btn-outline-dark" @onclick="AddNewChild" type="submit">Add</button>
-                </p>
-            </span>
-        </div>
-
-    <!--
-    <div class="form-group">
-        Id:<br/>
-        <InputNumber @bind-Value="newFamilyItem.Id"/>
-    </div>
-    <div class="form-group">
-        Street Name:<br/>
-        <InputTextArea rows="4" @bind-Value="newFamilyItem.StreetName"/>
-    </div>
-    <div class="form-group">
-        House Number:<br/>
-        <InputNumber @bind-Value="newFamilyItem.HouseNumber"/>
-    </div>
-    <div class="form-group">
-        Children:<br/>
-        <InputTextArea @bind="newFamilyItem.Children"/>
-    </div>
-    <div class="form-group">
-        Pets:<br/>
-        <InputTextArea @bind="newFamilyItem.Pets"/>
-    </div>
+        </div>-->
     <p class="actions">
-        <button class="btn btn-outline-dark" @onclick="AddNewFamily" type="submit">Create</button>
-    </p>-->
+        <button class="btn btn-outline-dark" @onclick="AddNewAdult" type="submit">Create</button>
+    </p>
 </EditForm>
 
 @code {
     private readonly Family newFamilyItem = new Family();
     private readonly Adult newAdult = new Adult();
-    private readonly Child newChild = new Child();
-    private readonly Pet newPet = new Pet();
+    /*private readonly Child newChild = new Child();
+    private readonly Pet newPet = new Pet();*/
     private string errorMessage;
 
     private void AddNewFamily()
@@ -231,7 +202,7 @@
         errorMessage = "";
         try
         {
-            FamilyService.AddFamily(newFamilyItem);
+            FamilyService.AddAdult(newAdult);
             NavigationManager.NavigateTo("/Family");
         }
         catch (Exception e)
@@ -256,7 +227,7 @@
         }
     }
     
-    private void AddNewChild()
+    /*private void AddNewChild()
     {
         errorMessage = "";
         try
@@ -277,7 +248,7 @@
         errorMessage = "";
         try
         {
-            FamilyService.ValidatePerson(newPet.Species, newPet.Name, newPet.Age, newPet.Id);
+            FamilyService.ValidatePet(newPet.Species, newPet.Name, newPet.Age, newPet.Id);
 
             FileContext.AddPet(newPet);
             NavigationManager.NavigateTo("/Pet");
@@ -286,7 +257,7 @@
         {
             errorMessage = e.Message;
         }
-    }
+    }*/
 
     [CascadingParameter]
     protected Task<AuthenticationState> AuthStat { get; set; }

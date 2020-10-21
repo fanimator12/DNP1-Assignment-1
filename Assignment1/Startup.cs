@@ -1,6 +1,7 @@
 using Assignment1.Authentication;
 using Assignment1.Data;
 using Assignment1.Data.Impl;
+using Assignment1.Data.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\torok\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\torok\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
-    <e p="I:\VIA\dnp1\Assignment1\Assignment1" t="IncludeRecursive">
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="D:\dnp1\DNP1-Assignment-1\Assignment1" t="IncludeRecursive">
       <e p="_Imports.razor" t="Include" />
       <e p="adults.json" t="Include" />
       <e p="App.razor" t="Include" />
@@ -19,12 +19,10 @@
         <e p="Impl" t="Include">
           <e p="InMemoryUserService.cs" t="Include" />
         </e>
-        <e p="ITodosService.cs" t="Include" />
         <e p="IUserService.cs" t="Include" />
         <e p="Persistence" t="Include">
           <e p="FamilyService.cs" t="Include" />
         </e>
-        <e p="TodoService.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
         <e p="WeatherForecastService.cs" t="Include" />
       </e>
@@ -37,7 +35,6 @@
         <e p="Interest.cs" t="Include" />
         <e p="Person.cs" t="Include" />
         <e p="Pet.cs" t="Include" />
-        <e p="Todo.cs" t="Include" />
         <e p="User.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -52,13 +49,11 @@
       <e p="Pages" t="Include">
         <e p="_Host.cshtml" t="Include" />
         <e p="AddFamily.razor" t="Include" />
-        <e p="AddTodo.razor" t="Include" />
         <e p="Error.cshtml" t="Include" />
         <e p="FamilyList.razor" t="Include" />
         <e p="Index.razor" t="Include" />
         <e p="Login.razor" t="Include" />
         <e p="SecurityLevel.razor" t="Include" />
-        <e p="TodoList.razor" t="Include" />
       </e>
       <e p="Persistence" t="Include">
         <e p="FileContext.cs" t="Include" />
@@ -98,7 +93,7 @@
             <e p="ICON-LICENSE" t="Include" />
             <e p="README.md" t="Include" />
           </e>
-          <e p="site.css" t="Include" />
+          <e p="Site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
       </e>
