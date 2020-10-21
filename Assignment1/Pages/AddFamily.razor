@@ -1,20 +1,25 @@
 @page "/AddFamily"
-@using Assignment1.Data
 @using Assignment1.Models
-@using FileData
+@using Assignment1.Persistence
+@using Assignment1.Data.Persistence
+@using Assignment1.Data
 @attribute [Authorize(Policy = "LoggedIn")]
-@inject IFamiliesService FamilyService
+@inject IFamiliesService FamilyService;
 @inject FileContext FileContext
 @inject NavigationManager NavigationManager
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
-<h3>Add Family</h3>
+<AuthorizeView>
+    <h3>Hello @context.User.Identity.Name</h3>
+</AuthorizeView>
+
+ <h3>Add Adults</h3>
 <p>This page can only be viewed, if you are logged in.</p>
 
 <EditForm Model="@newAdult" OnValidSubmit="@AddNewAdult">
     <DataAnnotationsValidator/>
     <ValidationSummary/>
-    <div class="col-12 row">
+    @*<div class="col-12 row">
         <span class="col-6">
             <div class="form-group">
                 Street Name: <br/>
@@ -28,7 +33,7 @@
             </div>
         </span>
     </div>
-    
+    *@
     <div id="addAdultForm">
         <h3 id="AddAdult" xmlns="http://www.w3.org/1999/html">Add Adult</h3>
     </div>
@@ -105,128 +110,54 @@
     </div>
     <div class="col-12 row">
         <span class="col-6">
-                    <div>@errorMessage</div>
-                </span>
+            <div>@errorMessage</div>
+        </span>
         <span class="col-6">
             <p class="actions">
-                <button class="btn btn-outline-dark" @onclick="AddNewAdult" type="submit">Add</button>
+                <button class="btn btn-outline-dark" @onclick="AddNewAdult" type="submit">Create</button>
             </p>
         </span>
     </div>
     
-      <!--<div id="addChildForm">
-            <h3 id="AddChildren" xmlns="http://www.w3.org/1999/html">Add Children</h3>
-        </div>
-    
-        <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group">
-                    ID: <br/>
-                    <InputText @bind-Value="newAdult"/>
-                </div>
-            </span>
-            <span class="col-6">
-                <div class="form-group">
-                    First Name: <br/>
-                    <InputText @bind-Value="newAdult"/>
-                </div>
-            </span>
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group">
-                    Last Name: <br/>
-                    <InputText @bind-Value="newAdult.LastName"/>
-                </div>
-            </span>
-            <span class="col-6">
-                <div class="form-group">
-                    Hair Color: <br/>
-                    <InputText @bind-Value="newAdult.HairColor"/>
-                </div>
-            </span>
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group">
-                    Eye Color: <br/>
-                    <InputText @bind-Value="newAdult.EyeColor"/>
-                </div>
-            </span>
-            <span class="col-6">
-                <div class="form-group">
-                    Age: <br/>
-                    <InputNumber @bind-Value="newAdult.Age"/>
-                </div>
-            </span>
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group">
-                    Weight: <br/>
-                    <InputNumber @bind-Value="newAdult.Weight"/>
-                </div>
-            </span>
-            <span class="col-6">
-                <div class="form-group">
-                    Height: <br/>
-                    <InputNumber @bind-Value="newAdult.Height"/>
-                </div>
-            </span>
-        </div>
-        <div class="col-12 row">
-            <span class="col-6">
-                <div class="form-group">
-                    Sex: <br/>
-                    <InputText @bind-Value="newAdult.Sex"/>
-                </div>
-            </span>
-            <span class="col-6">
-                <div>@errorMessage</div>
-            </span>
-        </div>-->
-    <p class="actions">
-        <button class="btn btn-outline-dark" @onclick="AddNewFamily" type="submit">Create</button>
-    </p>
 </EditForm>
 
 @code {
-    private readonly Family newFamilyItem = new Family();
-    private readonly Adult newAdult = new Adult();
+    /*private readonly Family newFamilyItem = new Family();*/
+    private Adult newAdult = new Adult();
     /*private readonly Child newChild = new Child();
     private readonly Pet newPet = new Pet();*/
     private string errorMessage;
 
-    private void AddNewFamily()
+    /*private void AddNewFamily()
     {
         errorMessage = "";
         try
         {
-            FamilyService.AddAdult(newAdult);
-            NavigationManager.NavigateTo("/Family");
+            FileContext.AddAdult(newAdult);
+            NavigationManager.NavigateTo("/Families");
         }
         catch (Exception e)
         {
             errorMessage = e.Message;
         }
-    }
+    }*/
 
-    private void AddNewAdult()
+    private async Task AddNewAdult()
     {
         errorMessage = "";
         try
         {
-            FamilyService.ValidatePerson(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);
+            /*FamilyService.ValidatePerson(newAdult.FirstName, newAdult.LastName, newAdult.Sex, newAdult.Id);*/
 
             FileContext.AddAdult(newAdult);
-            NavigationManager.NavigateTo("/Adult");
+            NavigationManager.NavigateTo("/Families");
         }
         catch (Exception e)
         {
             errorMessage = e.Message;
         }
     }
-    
+
     /*private void AddNewChild()
     {
         errorMessage = "";
@@ -271,7 +202,5 @@
             NavigationManager.NavigateTo("/");
         }
     }
-
-}
 
 }

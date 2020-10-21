@@ -490,5 +490,17 @@
     "Weight": 100.9,
     "Height": 177,
     "Sex": "F"
+  },
+  {
+    "JobTitle": "Opvasker",
+    "Id": 43,
+    "FirstName": "Anna",
+    "LastName": "Tolv",
+    "HairColor": "blond",
+    "EyeColor": "brown",
+    "Age": 22,
+    "Weight": 50,
+    "Height": 160,
+    "Sex": "female"
   }
 ]

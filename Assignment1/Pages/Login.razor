@@ -1,4 +1,4 @@
-@page "/login"
+@page "/Login"
 @using Assignment1.Authentication
 @namespace LoginComponent
 
@@ -33,26 +33,26 @@
     private string password;
     private string errorMessage;
     
-    [CascadingParameter]
+   /* [CascadingParameter]
     private Task<AuthenticationState> authenticationStateTask { get; set; }
 
-    private string _authMessage;
+    private string _authMessage;*/
 
     public async Task PerformLogin()
     {
         errorMessage = "";
-        var authState = await authenticationStateTask;
-        var user = authState.User;
+        /*var authState = await authenticationStateTask;
+        var user = authState.User;*/
         try
         {
-            if (user.Identity.IsAuthenticated)
+            /*if (user.Identity.IsAuthenticated)
             {
                 _authMessage = $"{user.Identity.Name} is authenticated.";
             }
             else
             {
                 _authMessage = "The user is NOT authenticated.";
-            }
+            }*/
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
@@ -68,8 +68,8 @@
         errorMessage = "";
         username = "";
         password = "";
-        var authState = await authenticationStateTask;
-        var user = authState.User;
+        /*var authState = await authenticationStateTask;
+        var user = authState.User;*/
         try
         {
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();

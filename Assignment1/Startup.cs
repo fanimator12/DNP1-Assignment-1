@@ -1,7 +1,9 @@
+using System.Security.Claims;
 using Assignment1.Authentication;
 using Assignment1.Data;
 using Assignment1.Data.Impl;
 using Assignment1.Data.Persistence;
+using Assignment1.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -26,15 +28,24 @@ namespace Assignment1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<IFamiliesService, FamilyService>();
+
+            services.AddHttpContextAccessor();
             services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddScoped<IUserService, FileContext>();
+            services.AddScoped<IFamiliesService, FileContext>();
+            services.AddScoped<IFamiliesService, FamilyService>();
+            services.AddSingleton<FileContext>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
             services.AddAuthorization(options =>
             {
-                /*options.AddPolicy("LoggedIn", a =>
-                    a.RequireAuthenticatedUser().RequireClaim("LoggedIn", "true"));*/
-                options.AddPolicy("LoggedIn", policy => policy.RequireClaim("LoggedIn", "true"));
+                options.AddPolicy("LoggedIn", policy => 
+                    policy.RequireAuthenticatedUser().RequireAssertion(context =>
+                    {
+                        Claim logClaim = context.User.FindFirst(claim => claim.Type.Equals("Id"));
+                        if (logClaim == null) return false;
+                        return int.Parse(logClaim.Value) > 0;
+                    }));
             });
         }
 

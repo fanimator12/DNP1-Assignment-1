@@ -5,11 +5,10 @@ namespace Assignment1.Data
 {
     public interface IFamiliesService
     {
-        IList<Family> GetFamilies();
         IList<Adult> GetAdults();
         void AddAdult(Adult adult);
         void RemoveAdult(int adultId);
-        void Update(Adult adult);
+        //void Update(Adult adult);
         Person ValidatePerson(string firstName, string lastName, string sex, int id);
     }
 }

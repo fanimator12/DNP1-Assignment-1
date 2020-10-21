@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using Assignment1.Data.Persistence;
 using Assignment1.Models;
+using Assignment1.Persistence;
 
 namespace Assignment1.Data.Impl
 {
     public class InMemoryUserService : IUserService
     {
-        private FamilyService service;
+        private FileContext service;
         private readonly string usersFile = "users.json";
         
         private IList<User> users;

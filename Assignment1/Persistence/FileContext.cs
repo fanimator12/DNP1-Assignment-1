@@ -1,12 +1,14 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using Assignment1.Data;
 using Assignment1.Models;
 
-namespace FileData
+namespace Assignment1.Persistence
 {
-    public class FileContext
+    public class FileContext : IFamiliesService, IUserService
     {
         private readonly string adultsFile = "adults.json";
 
@@ -45,7 +47,7 @@ namespace FileData
             SaveChanges();
         }
         
-        public void AddChild(Child child)
+      /*  public void AddChild(Child child)
         {
             var max = Children.Max(child => child.Id);
             child.Id = ++max;
@@ -59,6 +61,41 @@ namespace FileData
             pet.Id = ++max;
             Pets.Add(pet);
             SaveChanges();
+        }*/
+        public IList<Adult> GetAdults()
+        {
+            var amp = new List<Adult>(Adults);
+            return amp;
+        }
+        
+        public void RemoveAdult(int adultId)
+        {
+            var toRemove = Adults.First(t => t.Id == adultId);
+            Adults.Remove(toRemove);
+            SaveChanges();
+        }
+        public Person ValidatePerson(string firstName, string lastName, string sex, int id)
+        {
+            var validPerson = Adults.FirstOrDefault(adult => adult.FirstName.Equals(firstName));
+            if (validPerson == null) throw new Exception("Person with this first name not found");
+
+            if (!validPerson.LastName.Equals(lastName)) throw new Exception("Person with this last name not found");
+
+            if (!validPerson.Sex.Equals(sex)) throw new Exception("Person with this sex not found");
+
+            if (!validPerson.Id.Equals(id)) throw new Exception("Person with this ID not found");
+
+            return validPerson;
+        }
+
+        public User ValidateUser(string userName, string password)
+        {
+            var first = Users.FirstOrDefault(user => user.UserName.Equals(userName));
+            if (first == null) throw new Exception("User not found");
+
+            if (!first.Password.Equals(password)) throw new Exception("Incorrect password");
+
+            return first;
         }
 
         public void SaveChanges()
