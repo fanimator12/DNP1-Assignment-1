@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\AdvancedTodo.csproj",
+  "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Assignment1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -12,76 +12,43 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 244632368,
+        "HashCode": -156274094,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.TodoList",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.AddFamily",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList"
+            "TagName": "AddFamily"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.TodoList"
+          "Common.TypeName": "Assignment1.Pages.AddFamily"
         }
       },
       {
-        "HashCode": 137685191,
+        "HashCode": -1898818603,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.TodoList",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.AddFamily",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.Pages.TodoList"
+            "TagName": "Assignment1.Pages.AddFamily"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.TodoList",
+          "Common.TypeName": "Assignment1.Pages.AddFamily",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1921018732,
+        "HashCode": 327041827,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.AddTodo",
-        "AssemblyName": "AdvancedTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddTodo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.AddTodo"
-        }
-      },
-      {
-        "HashCode": -920667696,
-        "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.AddTodo",
-        "AssemblyName": "AdvancedTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AdvancedTodo.Pages.AddTodo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.AddTodo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -546835202,
-        "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.Index",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.Index",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -90,64 +57,97 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.Index"
+          "Common.TypeName": "Assignment1.Pages.Index"
         }
       },
       {
-        "HashCode": -954440344,
+        "HashCode": -78603017,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Pages.Index",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.Index",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.Pages.Index"
+            "TagName": "Assignment1.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Pages.Index",
+          "Common.TypeName": "Assignment1.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -2141514853,
+        "HashCode": 1130096263,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.NavMenu",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.SecurityLevel",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SecurityLevel"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.NavMenu"
+          "Common.TypeName": "Assignment1.Pages.SecurityLevel"
         }
       },
       {
-        "HashCode": -1697475520,
+        "HashCode": -1726609608,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.NavMenu",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.SecurityLevel",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.Shared.NavMenu"
+            "TagName": "Assignment1.Pages.SecurityLevel"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.NavMenu",
+          "Common.TypeName": "Assignment1.Pages.SecurityLevel",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 398917214,
+        "HashCode": 435374907,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.MainLayout",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Pages.FamilyList",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FamilyList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Pages.FamilyList"
+        }
+      },
+      {
+        "HashCode": 1474507050,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Pages.FamilyList",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.Pages.FamilyList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Pages.FamilyList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 781675432,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Shared.MainLayout",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -168,18 +168,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.MainLayout"
+          "Common.TypeName": "Assignment1.Shared.MainLayout"
         }
       },
       {
-        "HashCode": -420400261,
+        "HashCode": 1729518371,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.MainLayout",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Shared.MainLayout",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.Shared.MainLayout"
+            "TagName": "Assignment1.Shared.MainLayout"
           }
         ],
         "BoundAttributes": [
@@ -196,15 +196,15 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.MainLayout",
+          "Common.TypeName": "Assignment1.Shared.MainLayout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -128632814,
+        "HashCode": 1468118293,
         "Kind": "Components.ChildContent",
-        "Name": "AdvancedTodo.Shared.MainLayout.Body",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Shared.MainLayout.Body",
+        "AssemblyName": "Assignment1",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -215,35 +215,68 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "AdvancedTodo.Shared.MainLayout.Body",
+          "Common.TypeName": "Assignment1.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent"
         }
       },
       {
-        "HashCode": -1212564329,
+        "HashCode": 1317400553,
         "Kind": "Components.ChildContent",
-        "Name": "AdvancedTodo.Shared.MainLayout.Body",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Shared.MainLayout.Body",
+        "AssemblyName": "Assignment1",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
             "TagName": "Body",
-            "ParentTag": "AdvancedTodo.Shared.MainLayout"
+            "ParentTag": "Assignment1.Shared.MainLayout"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "AdvancedTodo.Shared.MainLayout.Body",
+          "Common.TypeName": "Assignment1.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -444816008,
+        "HashCode": -1334820258,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.SurveyPrompt",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 561923614,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Shared.NavMenu",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Assignment1.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Assignment1.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 864690291,
+        "Kind": "Components.Component",
+        "Name": "Assignment1.Shared.SurveyPrompt",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -262,18 +295,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.SurveyPrompt"
+          "Common.TypeName": "Assignment1.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -997570742,
+        "HashCode": -1118706141,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.Shared.SurveyPrompt",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.Shared.SurveyPrompt",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.Shared.SurveyPrompt"
+            "TagName": "Assignment1.Shared.SurveyPrompt"
           }
         ],
         "BoundAttributes": [
@@ -288,15 +321,15 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.Shared.SurveyPrompt",
+          "Common.TypeName": "Assignment1.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -401013587,
+        "HashCode": -429847309,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.App",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.App",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -305,23 +338,56 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.App"
+          "Common.TypeName": "Assignment1.App"
         }
       },
       {
-        "HashCode": -955314505,
+        "HashCode": -64009004,
         "Kind": "Components.Component",
-        "Name": "AdvancedTodo.App",
-        "AssemblyName": "AdvancedTodo",
+        "Name": "Assignment1.App",
+        "AssemblyName": "Assignment1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AdvancedTodo.App"
+            "TagName": "Assignment1.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AdvancedTodo.App",
+          "Common.TypeName": "Assignment1.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1654442629,
+        "Kind": "Components.Component",
+        "Name": "LoginComponent.Login",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "LoginComponent.Login"
+        }
+      },
+      {
+        "HashCode": 1326522959,
+        "Kind": "Components.Component",
+        "Name": "LoginComponent.Login",
+        "AssemblyName": "Assignment1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginComponent.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "LoginComponent.Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14703,57 +14769,67 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "AdvancedTodo",
+  "RootNamespace": "Assignment1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Pages\\TodoList.razor",
-      "TargetPath": "Pages\\TodoList.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Pages\\AddTodo.razor",
-      "TargetPath": "Pages\\AddTodo.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\Pages\\Error.cshtml",
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\torok\\OneDrive\\Documents\\GitHub\\DNPExamples\\Blazor\\AdvancedTodo\\_Imports.razor",
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\FamilyList.razor",
+      "TargetPath": "Pages\\FamilyList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\SecurityLevel.razor",
+      "TargetPath": "Pages\\SecurityLevel.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dnp1\\DNP1-Assignment-1\\Assignment1\\Pages\\AddFamily.razor",
+      "TargetPath": "Pages\\AddFamily.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

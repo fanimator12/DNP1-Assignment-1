@@ -6,8 +6,7 @@
         "Role" : "Teacher",
         "BirthYear" : 1986,
         "UserName" : "Troels",
-        "Id" : 128,
-        "LoggedIn" : true
+        "Id" : 128
     },
     {
         "City" : "Aarhus",
@@ -16,8 +15,7 @@
         "Role" : "Student",
         "BirthYear" : 1998,
         "UserName" : "Jakob",
-        "Id" : 1,
-        "LoggedIn" : true
+        "Id" : 1
     },
     {
         "City" : "Vejle",
@@ -26,7 +24,6 @@
         "Role" : "Guest",
         "BirthYear" : 1973,
         "UserName" : "Kasper",
-        "Id" : 28,
-        "LoggedIn" : true
+        "Id" : 28
     }
 ]

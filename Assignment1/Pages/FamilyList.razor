@@ -2,6 +2,7 @@
 @using Assignment1.Data
 @using Assignment1.Models
 @inject IFamiliesService FamilyService
+@inject NavigationManager Navigation;
 
 <h1 xmlns="http://www.w3.org/1999/html">Family list</h1>
 <p>
@@ -39,7 +40,7 @@ else
                 <td>
                     @item.StreetName <br> @item.HouseNumber
                 </td>
-                @foreach (var adultItem in allAdults)
+            @*@foreach (var adultItem in allAdults)
                 {
                     <td>@adultItem.JobTitle</td>
                     <td>@adultItem.Id</td>
@@ -51,7 +52,7 @@ else
                     <td>@adultItem.Weight</td>
                     <td>@adultItem.Height</td>
                     <td>@adultItem.Sex</td>
-                }
+                }*@
                 <td>
                     <button @onclick="@(() => RemoveFamily(item.Id))">
                         <i class="oi oi-trash" style="color:red"/>
@@ -69,6 +70,9 @@ else
     private IList<Adult> allAdults;
 
     private int? filterById;
+    
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs)
     {
@@ -94,6 +98,18 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        var authenticationState = await AuthenticationStateTask;
+        if (authenticationState?.User?.Identity is null || !authenticationState.User.Identity.IsAuthenticated)
+        {
+            var returnUrl = Navigation.ToBaseRelativePath(Navigation.Uri);
+            
+            if (string.IsNullOrWhiteSpace(returnUrl))
+                Navigation.NavigateTo("/Login", true);
+            else
+            {
+                Navigation.NavigateTo($"/Login?returnUrl={returnUrl}",true);
+            }
+        }
         allFamilies = FamilyService.GetFamilies();
         familiesToShow = allFamilies;
     }

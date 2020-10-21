@@ -32,15 +32,27 @@
     private string username;
     private string password;
     private string errorMessage;
+    
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationStateTask { get; set; }
+
+    private string _authMessage;
 
     public async Task PerformLogin()
     {
         errorMessage = "";
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        ;
+        var authState = await authenticationStateTask;
         var user = authState.User;
         try
         {
+            if (user.Identity.IsAuthenticated)
+            {
+                _authMessage = $"{user.Identity.Name} is authenticated.";
+            }
+            else
+            {
+                _authMessage = "The user is NOT authenticated.";
+            }
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
@@ -56,8 +68,7 @@
         errorMessage = "";
         username = "";
         password = "";
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        ;
+        var authState = await authenticationStateTask;
         var user = authState.User;
         try
         {
