@@ -502,5 +502,41 @@
     "Weight": 50,
     "Height": 160,
     "Sex": "female"
+  },
+  {
+    "JobTitle": "Painter",
+    "Id": 45,
+    "FirstName": "Tom",
+    "LastName": "Nielsen",
+    "HairColor": "brown",
+    "EyeColor": "brown",
+    "Age": 55,
+    "Weight": 80,
+    "Height": 180,
+    "Sex": "male"
+  },
+  {
+    "JobTitle": "Hunter",
+    "Id": 46,
+    "FirstName": "Anna",
+    "LastName": "Smooth",
+    "HairColor": "blond",
+    "EyeColor": "blue",
+    "Age": 33,
+    "Weight": 0,
+    "Height": 175,
+    "Sex": "female"
+  },
+  {
+    "JobTitle": "Painter",
+    "Id": 48,
+    "FirstName": "Anna",
+    "LastName": "Nielsen",
+    "HairColor": "blond",
+    "EyeColor": "blue",
+    "Age": 33,
+    "Weight": 50,
+    "Height": 160,
+    "Sex": "female"
   }
 ]

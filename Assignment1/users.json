@@ -25,5 +25,14 @@
         "BirthYear" : 1973,
         "UserName" : "Kasper",
         "Id" : 28
+    },
+    {
+        "City" : "Horsens",
+        "Domain" : "via.com",
+        "Password" : "headache",
+        "Role" : "Student",
+        "BirthYear" : 2000,
+        "UserName" : "Franciska",
+        "Id" : 12
     }
 ]
